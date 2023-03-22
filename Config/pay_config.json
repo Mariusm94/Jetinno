@@ -1,0 +1,221 @@
+{
+    "data": [
+        {
+            "cateId": 0,
+            "nameCn": "免费",
+            "open": 0,
+            "payType": "free"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "微信支付",
+            "open": 0,
+            "payType": "wx_pub"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "支付宝支付",
+            "open": 0,
+            "payType": "alipay"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "会员支付",
+            "open": 0,
+            "payType": "memberpay"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "京东支付",
+            "open": 0,
+            "payType": "jdpay"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "工银e支付",
+            "open": 0,
+            "payType": "icbcpay"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "建行龙支付",
+            "open": 0,
+            "payType": "dragonpay"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "银联云闪付",
+            "open": 0,
+            "payType": "unionpay"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "银联商务通",
+            "open": 0,
+            "payType": "umspay"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "威富通微信",
+            "open": 0,
+            "payType": "swf_wx"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "威富通支付宝",
+            "open": 0,
+            "payType": "swf_ali"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "汇聚微信",
+            "open": 0,
+            "payType": "jp_wx"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "汇聚支付宝",
+            "open": 0,
+            "payType": "jp_ali"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "通联微信",
+            "open": 0,
+            "payType": "unit_wx"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "通联支付宝",
+            "open": 0,
+            "payType": "unit_ali"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "通联银联",
+            "open": 0,
+            "payType": "unit_unp"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "新版翼支付",
+            "open": 0,
+            "payType": "wingpay"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "翼支付",
+            "open": 0,
+            "payType": "bestpay"
+        },
+        {
+            "cateId": 1,
+            "nameCn": "数字人民币",
+            "open": 0,
+            "payType": "e_cny"
+        },
+		{
+           "cateId": 1,
+           "nameCn": "维尔支付",
+           "open": 0,
+           "payType": "weier_pay"
+        },
+		{
+            "cateId": 1,
+            "nameCn": "飞天支付",
+            "open": 0,
+            "payType": "ftspay"
+        },
+        {
+            "cateId": 2,
+            "nameCn": "MDB现金",
+            "open": 1,
+            "payType": "mdb_cash"
+        },
+        {
+            "cateId": 9,
+            "nameCn": "MDB刷卡",
+            "open": 1,
+            "payType": "mdb_cashless"
+        },
+        {
+            "cateId": 3,
+            "nameCn": "卡支付（钱模式）",
+            "open": 1,
+            "payType": "rfidpay_money"
+        },
+        {
+            "cateId": 3,
+            "nameCn": "卡支付（杯模式）",
+            "open": 0,
+            "payType": "rfidpay_cup"
+        },
+        {
+            "cateId": 4,
+            "nameCn": "付款码支付",
+            "open": 0,
+            "payType": "XXbar"
+        },
+        {
+            "cateId": 4,
+            "nameCn": "微信付款码支付",
+            "open": 0,
+            "payType": "wx_bar"
+        },
+        {
+            "cateId": 4,
+            "nameCn": "支付宝付款码支付",
+            "open": 0,
+            "payType": "ali_bar"
+        },
+        {
+            "cateId": 5,
+            "nameCn": "信用卡支付",
+            "open": 0,
+            "payType": "mdb_card"
+        },
+        {
+            "cateId": 5,
+            "nameCn": "电子卡",
+            "open": 0,
+            "payType": "mdb_elec"
+        },
+        {
+            "cateId": 5,
+            "nameCn": "NFC支付",
+            "open": 0,
+            "payType": "mdb_nfc"
+        },
+        {
+            "cateId": 6,
+            "nameCn": "微信刷脸支付",
+            "open": 0,
+            "payType": "wxfacepay"
+        },
+        {
+            "cateId": 7,
+            "nameCn": "取货码支付",
+            "open": 0,
+            "payType": "fastcode"
+        },
+        {
+            "cateId": 10,
+            "nameCn": "数币硬钱包",
+            "open": 0,
+            "payType": "tianlong_card"
+        },
+        {
+            "cateId": 10,
+            "nameCn": "数币扫码",
+            "open": 0,
+            "payType": "tianlong_qr"
+        },
+        {
+            "cateId": 10,
+            "nameCn": "数币反扫",
+            "open": 0,
+            "payType": "tianlong_bar"
+        }
+    ],
+    "desc": "本文件为支付配置文件；\npayType，表示支付类型代号\nnameCn，表示支付类型中文名称\ncateId，表示支付类型所属支付大类ID， 0:免费 1:二维码 2:现金 3:RFID刷卡 4:反扫  5:MDB刷卡 6:刷脸 7:取货码 8:万能码,已废弃\nopen，表示该支付类型是否开启， 0:关闭 1:打开"
+}

@@ -1,0 +1,230 @@
+[
+  {"resKey":"免费","ar_":"مجانا","ru_":"бесплатно","zh_TW":"免費","zh_CN":"免费","en_":"free"},
+  {"resKey":"微信支付","ar_":"مدفع WeChat","ru_":"WeChat","zh_TW":"微信支付","zh_CN":"微信支付","en_":"wechat pay"},
+  {"resKey":"支付宝支付","ar_":"علي دفع","ru_":"Alipay","zh_TW":"支付寶支付","zh_CN":"支付宝支付","en_":"ali pay"},
+  {"resKey":"会员支付","ar_":"رواتب العضوية","ru_":"Membership pay","zh_TW":"會員支付","zh_CN":"会员支付","en_":"membership pay"},
+  {"resKey":"京东支付","ar_":"jd الدفع","ru_":"JD Pay","zh_TW":"京東支付","zh_CN":"京东支付","en_":"JD pay"},
+  {"resKey":"工银e支付","ar_":"ICBC E الدفع","ru_":"ICBC Pay","zh_TW":"工銀e支付","zh_CN":"工银e支付","en_":"ICBC e Pay"},
+  {"resKey":"建行龙支付","ar_":"CCB دفع طويل","ru_":"Dragon Pay","zh_TW":"建行龍支付","zh_CN":"建行龙支付","en_":"CCB Long Pay"},
+  {"resKey":"银联云闪付","ar_":"Apple Pay","ru_":"Apple Pay","zh_TW":"銀聯雲閃付","zh_CN":"银联云闪付","en_":"Apple Pay"},
+  {"resKey":"银联商务通","ar_":"UnionPay","ru_":"Umspay","zh_TW":"銀聯商務通","zh_CN":"银联商务通","en_":"Unionpay"},
+  {"resKey":"威富通微信","ar_":"Weifutong WeChat","ru_":"swf Wechat","zh_TW":"威富通微信","zh_CN":"威富通微信","en_":"weifutong wechat"},
+  {"resKey":"威富通支付宝","ar_":"Weifutong ali pay","ru_":"swf Alipay","zh_TW":"威富通支付寶","zh_CN":"威富通支付宝","en_":"weifutong ali pay"},
+  {"resKey":"汇聚微信","ar_":"Huiju WeChat","ru_":"jp Wechat","zh_TW":"彙聚微信","zh_CN":"汇聚微信","en_":"HuiJu wechat"},
+  {"resKey":"汇聚支付宝","ar_":"التقارب alipay","ru_":"jp Alipay","zh_TW":"彙聚支付寶","zh_CN":"汇聚支付宝","en_":"Convergence Alipay"},
+  {"resKey":"通联微信","ar_":"Tonly WeChat","ru_":"unit WeChat","zh_TW":"通聯微信","zh_CN":"通联微信","en_":"Tonly WeChat"},
+  {"resKey":"通联支付宝","ar_":"طن alipay","ru_":"unit Alipay","zh_TW":"通聯支付寶","zh_CN":"通联支付宝","en_":"Tonly Alipay"},
+  {"resKey":"通联银联","ar_":"Tonly UnionPay","ru_":"unit Unionpay","zh_TW":"通聯銀聯","zh_CN":"通联银联","en_":"Tonly unionpay"},
+  {"resKey":"新版翼支付","ar_":"أفضل نسخة جديدة","ru_":"Bestpay new version","zh_TW":"新版翼支付","zh_CN":"新版翼支付","en_":"Bestpay new version"},
+  {"resKey":"翼支付","ar_":"Bestpay","ru_":"Bestpay","zh_TW":"翼支付","zh_CN":"翼支付","en_":"Bestpay"},
+  {"resKey":"数字人民币","ar_":"الرقمية RMB","ru_":"E-CNY","zh_TW":"數字人民幣","zh_CN":"数字人民币","en_":"Digital RMB"},
+  {"resKey":"维尔支付","ar_":"يدفع Weier","ru_":"Weier Pay","zh_TW":"維爾支付","zh_CN":"维尔支付","en_":"Weier Pay"},
+  {"resKey":"现金支付","ar_":"الدفع النقدي","ru_":"наличными","zh_TW":"現金支付","zh_CN":"现金支付","en_":"cash pay"},
+  {"resKey":"MDB刷卡","ar_":"MDB غير النقدية","ru_":"MDB Cashless","zh_TW":"MDB刷卡","zh_CN":"MDB刷卡","en_":"MDB cashless"},
+  {"resKey":"卡支付（钱模式）","ar_":"دفع البطاقة (وضع المال)","ru_":"Оплата картой (денежный режим)","zh_TW":"卡支付（錢模式）","zh_CN":"卡支付（钱模式）","en_":"Card payment (money mode)"},
+  {"resKey":"卡支付（杯模式）","ar_":"دفع البطاقة (وضع الكأس)","ru_":"Оплата картой (режим стаканчика)","zh_TW":"卡支付（杯模式）","zh_CN":"卡支付（杯模式）","en_":"Card payment (cup mode)"},
+  {"resKey":"校园卡支付","ar_":"دفع بطاقة الحرم الجامعي","ru_":"оплата Campus Card","zh_TW":"校園卡支付","zh_CN":"校园卡支付","en_":"Campus Card Payment"},
+  {"resKey":"付款码支付","ar_":"رمز الدفع","ru_":"платежный код","zh_TW":"付款碼支付","zh_CN":"付款码支付","en_":"Payment code"},
+  {"resKey":"微信付款码支付","ar_":"الدفع بواسطة رمز الدفع WeChat","ru_":"платежный код WeChat","zh_TW":"微信付款碼支付","zh_CN":"微信付款码支付","en_":"Payment by wechat payment code"},
+  {"resKey":"支付宝付款码支付","ar_":"دفع رمز دفع Alipay","ru_":"оплата кодом Alipay","zh_TW":"支付寶付款碼支付","zh_CN":"支付宝付款码支付","en_":"Alipay payment code payment"},
+  {"resKey":"会员卡支付","ar_":"دفع بطاقة العضوية","ru_":"оплата членской картой","zh_TW":"會員卡支付","zh_CN":"会员卡支付","en_":"Membership card payment"},
+  {"resKey":"兑换券支付","ar_":"دفع القسيمة","ru_":"оплата купоном","zh_TW":"兌換券支付","zh_CN":"兑换券支付","en_":"Coupon payment"},
+  {"resKey":"信用卡支付","ar_":"البطاقات الائتمانية مقبولة","ru_":"оплата кредитной картой","zh_TW":"信用卡支付","zh_CN":"信用卡支付","en_":"credit cards accepted"},
+  {"resKey":"电子卡","ar_":"بطاقة إلكترونية","ru_":"E-Card","zh_TW":"電子卡","zh_CN":"电子卡","en_":"electronic card"},
+  {"resKey":"NFC支付","ar_":"NFC الدفع","ru_":"платить путем NFC Pay","zh_TW":"NFC支付","zh_CN":"NFC支付","en_":"NFC pay"},
+  {"resKey":"微信刷脸支付","ar_":"مدفع WeChat عبر فرشاة الوجه","ru_":"платить путем сканирования лица по WeChat","zh_TW":"微信刷臉支付","zh_CN":"微信刷脸支付","en_":"Wechat pay via facebrush"},
+  {"resKey":"万能提货码支付","ar_":"رمز التسليم العالمي للدفع","ru_":"платить универсальным кодом получения","zh_TW":"萬能提貨碼支付","zh_CN":"万能提货码支付","en_":"Universal delivery code for payment"},
+  {"resKey":"取货码支付","ar_":"الدفع عن طريق رمز التقاط","ru_":"платить по коду приобретения","zh_TW":"取貨碼支付","zh_CN":"取货码支付","en_":"Payment by pickup code"},
+  {
+    "resKey": "咖啡豆",
+    "zh_CN": "咖啡豆",
+    "en_": "Coffee Bean",
+	"ru_": "Кофейное зерно"
+  },
+  {
+    "resKey": "清水",
+    "zh_CN": "清水",
+    "en_": "Water",
+	"ru_": "Вода"
+  },
+  {
+    "resKey": "金桔柠檬",
+    "zh_CN": "金桔柠檬",
+    "en_": "Kumquat Lemon",
+	"ru_": "кумкват с лимоном"
+  },
+  {
+    "resKey": "蜜桃乌龙茶",
+    "zh_CN": "蜜桃乌龙茶",
+    "en_": "Peach Oolong Tea",
+	"ru_": "Персиковый чай улун"
+  },
+  {
+    "resKey": "糖",
+    "zh_CN": "糖",
+    "en_": "Sugar",
+	"ru_": "Сахар"
+  },
+  {
+    "resKey": "奶粉",
+    "zh_CN": "奶粉",
+    "en_": "Milk Powder",
+	"ru_": "Сухое молоко"
+  },
+  {
+    "resKey": "可可",
+    "zh_CN": "可可",
+    "en_": "Chocolate",
+	"ru_": "Какао"
+  },
+  {
+    "resKey": "抹茶",
+    "zh_CN": "抹茶",
+    "en_": "Matcha",
+	"ru_": "Матча"
+  },
+  {
+    "resKey": "奶茶",
+    "zh_CN": "奶茶",
+    "en_": "Milk Tea",
+	"ru_": "Чай с молоком"
+  },
+  {
+    "resKey": "速溶咖啡",
+    "zh_CN": "速溶咖啡",
+    "en_": "Instant Coffee",
+	"ru_": "Растворимый кофе"
+  },
+  {
+    "resKey": "卡布奇诺",
+    "zh_CN": "卡布奇诺",
+    "en_": "Cappuccino",
+	"ru_": "Капучино"
+  },
+  {
+    "resKey": "拿铁",
+    "zh_CN": "拿铁",
+    "en_": "Latte",
+	"ru_": "Латте"
+  },
+  {
+    "resKey": "摩卡",
+    "zh_CN": "摩卡",
+    "en_": "Mocha",
+	"ru_": "Мокко"
+  },
+  {
+    "resKey": "玛琪雅朵",
+    "zh_CN": "玛琪雅朵",
+    "en_": "Macchiato",
+	"ru_": "Макиато"
+  },
+  {
+    "resKey": "白咖啡",
+    "zh_CN": "白咖啡",
+    "en_": "White Coffee",
+	"ru_": "Белый кофе"
+  },
+  {
+    "resKey": "长咖啡",
+    "zh_CN": "长咖啡",
+    "en_": "Lungo Black",
+	"ru_": "Длинная Кофе"
+  },
+  {
+    "resKey": "意式浓缩",
+    "zh_CN": "意式浓缩",
+    "en_": "Espresso",
+	"ru_": "Эспрессо"
+  },
+  {
+    "resKey": "美式咖啡",
+    "zh_CN": "美式咖啡",
+    "en_": "Americano",
+	"ru_": "Американо"
+  },
+  {
+    "resKey": "冷美式咖啡",
+    "zh_CN": "冷美式咖啡",
+    "en_": "Cold Americano",
+	"ru_": "Холодный американо"
+  },
+  {
+    "resKey": "巧克力牛奶",
+    "zh_CN": "巧克力牛奶",
+    "en_": "Chocolate Milk",
+	"ru_": "Шоколадное молоко"
+  },
+  {
+    "resKey": "香浓巧克力",
+    "zh_CN": "香浓巧克力",
+    "en_": "Hot Chocolate",
+	"ru_": "Горячий шоколад"
+  },
+  {
+    "resKey": "醇香牛奶",
+    "zh_CN": "醇香牛奶",
+    "en_": "Hot Milk",
+	"ru_": "Горячее молоко"
+  },
+  {
+    "resKey": "冷牛奶",
+    "zh_CN": "冷牛奶",
+    "en_": "Cold Milk",
+	"ru_": "Холодный молоко"
+  },
+  {
+    "resKey": "抹茶拿铁",
+    "zh_CN": "抹茶拿铁",
+    "en_": "Matcha Latte",
+	"ru_": "Матча Латте"
+  },
+  {
+    "resKey": "冷抹茶拿铁",
+    "zh_CN": "冷抹茶拿铁",
+    "en_": "Cold Matcha Latte",
+	"ru_": "Холодный Матча Латте"
+  },
+  {
+    "resKey": "港式奶茶",
+    "zh_CN": "港式奶茶",
+    "en_": "Hot Milk Tea",
+	"ru_": "Чай с молоком"
+  },
+  {
+    "resKey": "冷港式奶茶",
+    "zh_CN": "冷港式奶茶",
+    "en_": "Cold Milk Tea",
+	"ru_": "Холодный Чай с молоком"
+  },
+  {
+    "resKey": "热蜜桃乌龙茶",
+    "zh_CN": "热蜜桃乌龙茶",
+    "en_": "Hot Peach Oolong Tea",
+	"ru_": "Горячий персиковый улун чай"
+  },
+  {
+    "resKey": "热金桔柠檬",
+    "zh_CN": "热金桔柠檬",
+    "en_": "Hot Kumquat Lemon",
+	"ru_": "Горячий кумкват с лимоном"
+  },
+  {
+    "resKey": "冷蜜桃乌龙茶",
+    "zh_CN": "冷蜜桃乌龙茶",
+    "en_": "Cold Peach Oolong Tea",
+	"ru_": "Холодный персиковый улун чай"
+  },
+  {
+    "resKey": "冷金桔柠檬",
+    "zh_CN": "冷金桔柠檬",
+    "en_": "Cold Kumquat Lemon",
+	"ru_": "Холодный кумкват с лимоном"
+  },
+  {
+    "resKey": "热水",
+    "zh_CN": "热水",
+    "en_": "Hot Water",
+	"ru_": "Горячая вода"
+  }
+]

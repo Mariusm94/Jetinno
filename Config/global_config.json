@@ -1,0 +1,75 @@
+{
+    "data": {
+        "doorCardBaudRate": "NEW",
+        "ioBaudRate": "OLD",
+        "barCodeBaudRate": "OLD",
+        "screen": "DUAL",
+        "machineModel": "JL500_IN_8C_I",
+        "layout": "2",
+        "userCup": "ON",
+        "userCupChecked": "TRUE",
+        "userCupModified": "TRUE",
+        "currencySymbol": "€",
+        "wxpubQR": "http://weixin.qq.com/r/6Tv-5zPEa24UrXeE9277",
+        "miniAppQR": "http://weixin.qq.com/r/6Tv-5zPEa24UrXeE9277",
+        "QRLogo": "/jetinno/xxxxxx",
+        "tianLongPayId": "GHCSZP003",
+        "syrup": "OFF",
+        "dog": "ON",
+        "lang": [
+            0,
+            1
+        ],
+        "menuLang": [
+            1
+        ],
+        "commonFun": [
+            1,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112
+        ],
+        "clean": [
+            1,
+            301,
+            302,
+            303,
+			304
+        ],
+		"serverList": ["47.91.79.121"],
+		"goneTouchPass": false,
+        "goneChair": false
+    },
+    "desc": {
+        "docdesc": "本文件为全局配置文件",
+        "doorCardBaudRate": "表示门卡板波特率，可设置为'NEW'或'OLD'",
+        "ioBaudRate": "表示IO板波特率，可设置为'NEW'或'OLD'",
+        "barCodeBaudRate": "表示扫码枪波特率，可设置为'NEW'或'OLD'",
+        "screen": "表示单双屏，可设置为'SINGLE'或'DUAL'",
+        "machineModel": "123456",
+        "layout": "表示布局设定，可设置为'1'或'2'或'3'或'4'",
+        "userCup": "表示开启\\/关闭用户杯模式，可设置为'ON'或'OFF'",
+        "userCupChecked": "表示默认是否已勾选，可设置为'TRUE'或'FALSE'",
+        "userCupModified": "表示默认是否可修改，可设置为'TRUE'或'FALSE'",
+        "currencySymbol": "表示货币符号，例如'¥'",
+        "wxpubQR": "表示客户二维码",
+        "miniAppQR": "表示公众号二维码",
+        "QRLogo": "表示小程序二维码",
+        "dog": "表示开启\\/关闭自拉起功能,可设置为'ON'或'OFF'",
+        "syrup": "表示开启\\/关闭糖浆模块,可设置为'ON'或'OFF'",
+        "lang": "表示本应用需要展示的语种,其中,简体中文-0,英文-1,繁体中文-2,俄罗斯文-3,阿拉伯文-4;示例[0,1,2,3,4]",
+        "menuLang": "表示售卖界面需要展示的语种,其中,简体中文-0,英文-1,繁体中文-2,俄罗斯文-3,阿拉伯文-4;示例[0,1,2,3,4]",
+        "commonFun": "表示后台设置中的常用功能显示,其中锅炉温度-1,锅炉压力-2,蒸汽锅炉温度-3,打开大门-101,打开小门-102,支付配置-103,服务器列表-104,机器复位-105,语言切换-106,取杯门清洗-107,网络测试-108,显示设置-109,导出订单-110,修改登录密码-111,运杯测试-112,锁定屏幕-113;示例[1,2,3,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115]",
+        "clean": "是否显示",
+        "is_showed": "表示清洗配置表,其中整机-1,酿造器1-101,酿造器2-102,泡茶器1-201,泡茶器2-202,搅拌器1-301,搅拌器2-302,搅拌器3-303,搅拌器4-304,搅拌器5-305,搅拌器6-306,制冰机1-401,鲜奶机1-501,糖浆机1-601;示例[1,101,102,201,202,301,302,303,304,501,601]"
+    }
+}

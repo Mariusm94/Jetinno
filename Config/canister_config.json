@@ -1,0 +1,94 @@
+{
+    "data": [
+        {
+            "canister_id": 1,
+            "canister_name": "Preworkout 3",
+            "desc": "料盒1",
+            "isClean": false,
+            "is_showed": 0,
+            "material_id": 10252,
+			"time": 3,
+            "test_results": 10
+        },
+        {
+            "canister_id": 2,
+            "canister_name": "Preworkout 2",
+            "desc": "料盒2",
+            "isClean": false,
+            "is_showed": 0,
+            "material_id": 10428,
+			"time": 3,
+            "test_results": 10
+        },
+        {
+            "canister_id": 3,
+            "canister_name": "Preworkout 1",
+            "desc": "料盒3",
+            "isClean": false,
+            "is_showed": 0,
+            "material_id": 10016,
+			"time": 3,
+            "test_results": 12
+        },
+        {
+            "canister_id": 4,
+            "canister_name": "Bcaa 1",
+            "desc": "料盒4",
+            "isClean": false,
+            "is_showed": 0,
+            "material_id": 10008,
+			"time": 3,
+            "test_results": 10
+        },
+        {
+            "canister_id": 5,
+            "canister_name": "Protein 4",
+            "desc": "料盒5",
+            "isClean": false,
+            "is_showed": 0,
+            "material_id": 10006,
+			"time": 3,
+            "test_results": 10
+        },
+		{
+            "canister_id": 6,
+            "canister_name": "Protein 3",
+            "desc": "料盒6",
+            "isClean": false,
+            "is_showed": 0,
+            "material_id": 10010,
+			"time": 3,
+            "test_results": 10
+        },
+        {
+            "canister_id": 7,
+            "canister_name": "Protein 2",
+            "desc": "料盒7",
+            "isClean": false,
+            "is_showed": 0,
+            "material_id": 10012,
+			"time": 3,
+            "test_results": 10
+        },
+		{
+            "canister_id": 8,
+            "canister_name": "Protein 1",
+            "desc": "料盒8",
+            "isClean": false,
+            "is_showed": 0,
+            "material_id": 10031,
+			"time": 3,
+            "test_results": 10
+        }
+    ],
+    "desc": {
+        "docdesc": "本文件为料盒配置文件",
+        "desc": "该料盒的名称",
+        "canister_id": "料盒ID",
+        "canister_name": "料盒名称",
+        "canister_name_lang": "料盒名称,适配多个国家语言",
+        "material_id": "物料ID",
+        "test_results": "一定时间的掉粉重量",
+        "is_showed": "是否显示"
+    }
+}
