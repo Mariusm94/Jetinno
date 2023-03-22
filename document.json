@@ -1,0 +1,506 @@
+{
+  "Jetinno": {
+    "Config": "机器配置文件",
+    "CustomPictures": "常用媒体资源,或替换售卖中媒体资源",
+    "Log": "自动生成的日志",
+    "ProductImage": "售卖页面饮品图片",
+    "ProductImageBig": "售卖页面调整浓度图片",
+    "ScreenProtect": "屏保媒体资源",
+    "Download": "自动生成的下载文件",
+    "RadioButtonImage": "支付图片",
+    "Drawable": "自动生成的APP中原始媒体资源",
+    "bussiness_params.wxfp": "微信刷脸秘钥文件",
+    "document.json": "自动生成的文件和字段释义",
+    ".product": "饮品文件",
+    ".recipe": "配方文件"
+  },
+  "Config": {
+    "global_config.json": "APP配置文件;必须配置该文件",
+    "canister_config.json": "料盒配置文件;必须配置该文件",
+    "pay_config.json": "支付配置文件;必须配置该文件",
+    "translate_config.json": "配方名称,饮品名称,料盒名称词典库;可选配置该文件",
+    "fault_config.json": "故障词典库;可选配置该文件"
+  },
+  "global_config.json": {
+    "userCup": "售卖页面是否显示用户杯按钮,ON表示显示,OFF表示不显示。可选配置该字段,不配置该字段时，该字段默认值为OFF",
+    "userCupChecked": "售卖页面用户杯按钮是否默认选中,TRUE表示选中,FALSE表示不选中。可选配置该字段,不配置该字段时，该字段默认值为FALSE",
+    "userCupModified": "售卖页面中的调整浓度页面用户杯按钮是否允许修改,TRUE表示允许修改,FALSE表示不允许修改。可选配置该字段,不配置该字段时，该字段默认值为FALSE",
+    "doorCardBaudRate": "门卡板波特率,NEW表示波特率9600,OLD表示波特率115200。可选配置该字段,不配置该字段时，该字段默认值为FALSE",
+    "ioBaudRate": "IO板波特率,NEW表示波特率9600,OLD表示波特率115200。可选配置该字段,不配置该字段时，该字段默认值为OLD",
+    "barCodeBaudRate": "扫码枪波特率,NEW表示波特率9600,OLD表示波特率115200。可选配置该字段,不配置该字段时，该字段默认值为OLD",
+    "machineModel": "机器型号,由机型名称+各零件缩写字母组成,详情参考machineModelDesc说明。必须配置该字段,不配置该字段时，该字段默认值为'JL300_ES_7C'。",
+    "currencySymbol": "价格货币符号,如美元：$。必须配置该字段,不配置该字段时，该字段默认值为空。",
+    "wxpubQROpen": "售卖页面是否显示公众号二维码,true表示显示,false表示不显示。可选配置该字段,不配置该字段时，该字段默认值为false",
+    "protectTime": "屏保时间(单位秒),小于30表示关闭。可选配置该字段,不配置该字段时，该字段默认值为0",
+    "isProtectLooper": "屏保是否循环播放,true表示是,false表示否。可选配置该字段,不配置该字段时，该字段默认值为false",
+    "sleepTime": "休眠时间(单位分),0表示关闭。可选配置该字段,不配置该字段时，该字段默认值为0",
+    "phoneNum": "服务热线,如果该字段值为空,售卖页面不显示服务热线。可选配置该字段,不配置该字段时，该字段默认值为空",
+    "human": "是否开启人体感应,true表示是,false表示否。可选配置该字段,不配置该字段时，该字段默认值为false",
+    "cupLidOn": "是否开启取盖器功能,true表示是,false表示否。可选配置该字段,不配置该字段时，该字段默认值为false",
+    "dog": "开启或关闭自拉起功能,ON表示开启,OFF表示关闭。可选配置该字段,不配置该字段时，该字段默认值为ON",
+    "lang": {
+      "desc": "APP可以选择的语种,选择语言界面不会按值排序。可选配置该字段,不配置该字段时，该字段默认值为【0，1】",
+      "简体中文": 0,
+      "英文": 1,
+      "繁体中文": 2,
+      "俄罗斯文": 3,
+      "阿拉伯文": 4
+    },
+    "menuLang": {
+      "desc": "售卖页面可以选择的语种,选择语言界面会按值排序。可选配置该字段,不配置该字段时，该字段默认值为【0，1】",
+      "简体中文": 0,
+      "英文": 1,
+      "繁体中文": 2,
+      "俄罗斯文": 3,
+      "阿拉伯文": 4
+    },
+    "commonFun": {
+      "desc": "后台设置中的常用功能显示,功能列表界面会按值排序。必须配置该字段,不配置该字段时，该字段默认值为【1, 2, 3, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112】。",
+      "锅炉温度": 1,
+      "锅炉压力": 2,
+      "蒸汽锅炉温度": 3,
+      "打开大门": 101,
+      "打开小门": 102,
+      "支付配置": 103,
+      "服务器列表": 104,
+      "机器复位": 105,
+      "语言切换": 106,
+      "取杯门清洗": 107,
+      "网络测试": 108,
+      "显示设置": 109,
+      "导出订单": 110,
+      "修改登录密码": 111,
+      "运杯测试": 112,
+      "锁定屏幕": 113,
+      "废渣管理": 116
+    },
+    "clean": {
+      "desc": "清洗配置表。该字段已废弃",
+      "整机": 1,
+      "酿造器1": 101,
+      "酿造器2": 102,
+      "泡茶器1": 201,
+      "泡茶器2": 202,
+      "搅拌器1": 301,
+      "搅拌器2": 302,
+      "搅拌器3": 303,
+      "搅拌器4": 304,
+      "搅拌器5": 305,
+      "搅拌器6": 306,
+      "制冰机1": 401,
+      "鲜奶机1": 501,
+      "糖浆机1": 601
+    },
+    "goneTouchPass": "是否隐藏点击左上角弹出密码框的功能,true表示隐藏false表示显示。可选配置该字段,不配置该字段时，该字段默认值为false",
+    "goneChair": "是否隐藏残疾人图标,true表示隐藏false表示显示。可选配置该字段,不配置该字段时，该字段默认值为false",
+    "goneBottomProduct": "针对竖屏，是否隐藏底部饮品子列表,true表示隐藏false表示显示。可选配置该字段,不配置该字段时，该字段默认值为false",
+    "serverList": "第一次APP启动时的服务器配置。不配置该字段时，可选配置该字段,该字段默认值为[\"39.104.57.0\",\"116.62.22.100\"]",
+    "parts": {
+      "desc": "该机器的零部件库,可选配置该字段,不配置该字段时,该字段默认值为空",
+      "desc2": "该字段详细说明该机器一定包含或者一定不包含有哪些零部件，一般不需要配置该字段，通过machineModel智能判断该机器的零部件信息。",
+      "desc3": "例如\"2100:true\"表示该机器一定含有酿造器1，\"2200:false\"表示该机器一定不含有酿造器2",
+      "2100": "酿造器1",
+      "2200": "酿造器2",
+      "3100": "泡茶器1",
+      "3200": "泡茶器2",
+      "4100": "搅拌器1",
+      "4200": "搅拌器2",
+      "4300": "搅拌器3",
+      "4400": "搅拌器4",
+      "4500": "搅拌器5",
+      "4600": "搅拌器6",
+      "5100": "出料电机1",
+      "5200": "出料电机2",
+      "5300": "出料电机3",
+      "5400": "出料电机4",
+      "5500": "出料电机5",
+      "5600": "出料电机6",
+      "5700": "出料电机7",
+      "5800": "出料电机8",
+      "6000": "制冰机",
+      "7000": "奶泡机",
+      "8000": "冷水机",
+      "9000": "分杯系统",
+      "10000": "压盖系统",
+      "11000": "含有糖浆机",
+      "11100": "糖浆机1",
+      "11200": "糖浆机2",
+      "11300": "糖浆机3",
+      "11400": "糖浆机4",
+      "11500": "糖浆机5",
+      "11600": "糖浆机6",
+      "12000": "单独出水传感器",
+      "13100": "研磨器1",
+      "13200": "研磨器2",
+      "14100": "咖啡豆盒1",
+      "14200": "咖啡豆盒2",
+      "15000": "小门",
+      "16000": "大门",
+      "17000": "滴水盘检测",
+      "18000": "脏水通满检测",
+      "19100": "指示灯",
+      "19200": "紫外灯",
+      "20100": "流量计1",
+      "20200": "流量计2",
+      "21000": "酿造器锅炉",
+      "22000": "齿轮泵",
+      "23100": "TS1接搅拌",
+      "23200": "TS2接搅拌",
+      "24100": "BIB1",
+      "24200": "BIB2",
+      "24300": "BIB3",
+      "24400": "BIB4",
+      "24500": "BIB5",
+      "24600": "BIB6",
+      "24700": "BIB7",
+      "24800": "BIB8"
+    },
+    "machineModelDesc": {
+      "desc": "该字段仅仅是对machineModel字段的扩展说明。",
+      "支持的机器型号": [
+        "JLTT",
+        "JLTTN",
+        "JL18",
+        "JL22",
+        "JL24",
+        "JL28",
+        "JL35",
+        "JL50",
+        "FS170",
+        "JL300",
+        "JL500",
+        "JL500I",
+        "JL800",
+        "JL801",
+        "JL820",
+        "JL828",
+        "JL852",
+        "其中三位数的都是柜机，其他都是台机"
+      ],
+      "零部件字母缩写": {
+        "2ES": "等同旧规则中的2xES，两个咖啡豆盒+两个研磨器+一个意式咖啡冲泡器的组合",
+        "ES": "一个咖啡豆盒+一个研磨器+一个咖啡酿造器（专为Espresso功能）的组合",
+        "ESFB": "ES配置+FB配置组合",
+        "ESLC": "ES配置+LC配置组合",
+        "LC": "一个咖啡豆盒+一个研磨器+一个咖啡酿造器（专为Long coffee咖啡功能）的组合",
+        "BTC": "一个咖啡豆盒+一个研磨器+一个FB冲泡器（咖啡滤网）的组合",
+        "2TS": "两组TS配置组合",
+        "TS": "一个茶粉/咖啡粉料盒+一个茶酿造器（茶滤网/咖啡滤网）的组合",
+        "2FB": "两组FB配置组合",
+        "FB": "一个茶粉/咖啡粉料盒+一个FB冲泡器（茶滤网/咖啡滤网）的组合",
+        "IN": "全部是速溶料盒+搅拌器的组合，多少个料盒表示为IN_xC (其中IN只体现在全部都是速溶料盒的机型中)",
+        "FM": "带奶泵冷热打奶泡功能",
+        "FV": "带文丘里打奶泡功能（只能打热奶泡）",
+        "IM": "外置制冰机模组（注：内置制冰机将I放在型号之后,例如JL500I）",
+        "I": "I表示在原配置上增加内置制冰模组；例如JL500I,I放在后面配置中，代表冷水机模块,例如JL500_I",
+        "Y": "Y表示在原配置上增加自动压杯盖功能，例如JL500_Y",
+        "IW": "单独出水传感器,由开发者独创命名(Independent of the water)",
+        "C": "表示料盒，前面的数字表示数量，其中料盒数量包含豆盒,例如_IN_8C,表示速溶机8个料盒",
+        "desc": "'2ES'优先级高于'ESXX'或'ES','2FB'优先级高于'XXFB'或'FB'",
+        "example": {
+          "JL300_2ES_5C_I": "表示机型是JL300，有两个咖啡豆盒+两个研磨器+一个意式咖啡冲泡器+3个速溶料盒+2个搅拌器+冷水机",
+          "JL500I_IN_5C_Y": "表示机型是JL500I，5个速溶料盒+3个搅拌器+内置制冰模组+压杯盖系统",
+          "JL35_ESLC_4C_FM_IM_IW": "表示机型是JL35，两个咖啡豆盒+两个研磨器+两个酿造器+2个速溶料盒+奶泡机+外置制冰机模组+单独出水传感器"
+        }
+      }
+    },
+    "example": {
+      "userCup": "ON",
+      "userCupChecked": "TRUE",
+      "userCupModified": "TRUE",
+      "doorCardBaudRate": "NEW",
+      "ioBaudRate": "OLD",
+      "barCodeBaudRate": "OLD",
+      "machineModel": "JL300_ES_4C",
+      "currencySymbol": "¥",
+      "wxpubQR": "http://weixin.qq.com/r/6Tv-5zPEa24UrXeE9277",
+      "wxpubQROpen": false,
+      "protectTime": 0,
+      "isProtectLooper": false,
+      "sleepTime": 0,
+      "phoneNum": null,
+      "human": false,
+      "cupLidOn": false,
+      "dog": "ON",
+      "syrup": "OFF",
+      "goneTouchPass": false,
+      "lang": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "menuLang": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "commonFun": [
+        1,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113
+      ],
+      "clean": [
+        1,
+        101,
+        301,
+        302,
+        303,
+        501
+      ],
+      "serverList": [
+        "47.91.79.121"
+      ],
+      "goneChair": true,
+      "parts": {
+        "2100": true,
+        "2200": false
+      }
+    }
+  },
+  "canister_config.json": {
+    "canister_id": "料盒ID",
+    "canister_name": "料盒名称(这里是原文,如显示其他语言,请将该原文对应的翻译放在translate_config.json中)",
+    "is_showed": "售卖页面中的调整浓度页面是否显示该料盒,0表示不显示,1表示显示",
+    "material_id": "物料ID",
+    "time": "校准时的出料时间",
+    "test_results": "校准时的出料重量",
+    "example": {
+      "canister_id": 170,
+      "canister_name": "咖啡豆",
+      "is_showed": 1,
+      "material_id": 10009,
+      "time": 3,
+      "test_results": 5
+    }
+  },
+  "pay_config.json": {
+    "cateId": "支付方式大类的值",
+    "nameCn": "支付方式原文名称",
+    "open": "关闭或者打开该支付,0表示关闭1表示打开",
+    "payType": "支付方式名称",
+    "example": {
+      "cateId": 0,
+      "nameCn": "免费",
+      "open": 0,
+      "payType": "free"
+    }
+  },
+  "translate_config.json": {
+    "resKey": "原文",
+    "zh_CN": "简体中文",
+    "zh_TW": "繁体中文",
+    "ar_": "阿拉伯文",
+    "ru_": "俄文",
+    "en_": "英文",
+    "example": {
+      "resKey": "咖啡豆",
+      "zh_CN": "咖啡豆",
+      "ar_": "حبوب القهوة",
+      "ru_": "горячая вода",
+      "zh_TW": "咖啡豆",
+      "en_": "coffee bean"
+    }
+  },
+  "fault_config.json": {
+    "code": "故障码",
+    "desc_zh_CN": "故障描述,简体中文",
+    "desc_zh_TW": "故障描述,繁体中文",
+    "desc_ar_": "故障描述,阿拉伯文",
+    "desc_ru_": "故障描述,俄文",
+    "desc_en_": "故障描述,英文",
+    "solution_zh_CN": "故障解决,简体中文",
+    "example": {
+      "code": "0080",
+      "desc_zh_CN": "搅拌电机1短路",
+      "desc_zh_TW": "攪拌電機1短路",
+      "desc_en_": "Mixer motor 1 short circuit",
+      "desc_ru_": "Неисправность мотора миксера 1",
+      "desc_ar_": "خلاط كهربائي",
+      "desc_es_": "Mixer motor 1 short circuit",
+      "solution_zh_CN": "无"
+    }
+  },
+  "Drawable": {
+    "desc": "例如menuic_logo_original.png表示售卖页面中左上角logo,如需替换该图片,则新图片命名menuic_logo.png即可"
+  },
+  "RadioButtonImage": "配合pay_config.json文件一起使用例如在pay_config.json文件中的支付名称'wx_pub',则在此文件夹中需要有如下两个文件ic_wx_pub_normal.png表示默认图片ic_wx_pub_checked.png表示选中图片",
+  "CustomPictures": {
+    "desc": "例如在该文件夹下放置新的图片并命名为'menuic_logo.png',则会取代Drawable文件夹下的'menuic_logo_original.png'的图片,在售卖页显示新的图片",
+    "desc2": "如果需要显示APP启动时的媒体资源,竖屏时,则在该文件下放置名称为'ic_loading_port.gif',横屏时,存放'ic_loading.gif',格式兼容gif/png/jpg/jpeg",
+    "desc3": "如果需要替换售卖页面左上角logo图片,则在该文件夹下放置'ic_logo.png'图片,效果等同于放置'menuic_logo.png,但'ic_logo.png'优先级更高"
+  },
+  ".product": {
+    "bestSell": "是否热销,1表示热销,0表示非热销",
+    "canisterIds": "使用到的料盒集合",
+    "date": "自动生成的日期",
+    "discount": "折扣率,0.01~0.99",
+    "distype": "折扣类型,0表示不打折,1表示折扣价,2表示折扣率",
+    "makeTime": "饮品制作时间",
+    "nameCN": "饮品名称(这里是原文,如显示其他语言,请将该原文对应的翻译放在translate_config.json中)",
+    "order": "排序",
+    "picPath": "饮品图片名称",
+    "price": "原价",
+    "productId": "售卖价",
+    "recipeName": "配方名称",
+    "salePrice": "售卖价",
+    "saveOut": "是否有库存",
+    "visible": "是否显示,true表示显示false表示不显示",
+    "example": {
+      "bestSell": false,
+      "canisterIds": "0",
+      "date": "20211018 15:41",
+      "discount": 0,
+      "distype": 0,
+      "hotCold": "hot",
+      "makeTime": 60,
+      "nameCN": "热水5",
+      "order": 15,
+      "picPath": "ic_hot_water.png",
+      "price": 0.01,
+      "productId": 820,
+      "recipeName": "热水",
+      "salePrice": 0.01,
+      "saveOut": false,
+      "visible": true
+    }
+  },
+  ".recipe": {
+    "recipeName": "配方名称(这里是原文,如显示其他语言,请将该原文对应的翻译放在translate_config.json中)",
+    "canisterIds": "使用到料盒IDs",
+    "esAttr": {
+      "squeezeForce": "挤饼力",
+      "squeezeTime": "挤饼时间",
+      "restorationTime": "回程时间",
+      "secondSqueezeTime": "二次挤饼时间",
+      "prebrewingWaterRatio": "预冲泡水量",
+      "prebrewingTime": "预冲泡时间",
+      "flowSpeed": "流速控制"
+    },
+    "instantAttr": {
+      "firstMixWaterRatio": "第一段混水比例",
+      "secondMixWaterRatio": "第二段混水比例",
+      "thirdMixWaterRatio": "第三段混水比例",
+      "mixerDelayTime": "搅拌器延时停止",
+      "fanSpeed": "制作时风扇转速",
+      "openDoorDelayTime": "产品完成延时开门",
+      "fanStopDelayTime": "风扇延时停止"
+    },
+    "stepses": [
+      {
+        "canisterId": "咖啡类料盒ID",
+        "recipeOutOrder": "出料顺序",
+        "delayTime": "出水间隔",
+        "waterVolume": "加水量",
+        "gradientWeight": "出料量"
+      },
+      {
+        "canisterId": "水类料盒ID",
+        "recipeOutOrder": "出料顺序",
+        "delayTime": "出水间隔",
+        "waterVolume": "加水量",
+        "tempType": "水温档位,0表示冷水,1表示热水"
+      },
+      {
+        "canisterId": "速溶类料盒ID",
+        "recipeOutOrder": "出料顺序",
+        "delayTime": "出水间隔",
+        "waterVolume": "加水量",
+        "tempType": "水温档位,0表示冷水,1表示热水",
+        "gradientWeight": "出料量",
+        "mixSpeed": "搅拌机速度"
+      },
+      {
+        "canisterId": "果酱类料盒ID",
+        "recipeOutOrder": "出料顺序",
+        "delayTime": "出水间隔",
+        "waterVolume": "加水量",
+        "gradientWeight": "出料量"
+      },
+      {
+        "canisterId": "冰类料盒ID",
+        "recipeOutOrder": "出料顺序",
+        "gradientWeight": "出料量"
+      },
+      {
+        "canisterId": "奶,蒸汽,冷咖啡类料盒ID",
+        "recipeOutOrder": "出料顺序",
+        "delayTime": "出水间隔",
+        "airRate": "空气比例阀占空比(绵密度)",
+        "streamRate": "蒸汽阀占空比(温度)",
+        "coldMilkPumpRate": "冷奶泵占空比",
+        "coldMilkFormPumpRate": "冷奶泡泵占空比",
+        "milkType": "奶盒选择",
+        "gradientWeight": "出料时间"
+      },
+      {
+        "canisterId": "糖浆类料盒ID",
+        "recipeOutOrder": "出料顺序",
+        "gradientWeight": "出料量,这个是用于设置出料时间的"
+      }
+    ],
+    "example": {
+      "canisterIds": "170,3,4",
+      "esAttr": {
+        "prebrewingTime": "0",
+        "prebrewingWaterRatio": "15",
+        "restorationTime": "0.2",
+        "secondSqueezeTime": "1.5",
+        "squeezeForce": "70",
+        "squeezeTime": "2"
+      },
+      "instantAttr": {
+        "firstMixWaterRatio": "0",
+        "secondMixWaterRatio": "0",
+        "thirdMixWaterRatio": "0"
+      },
+      "recipeName": "卡布奇诺",
+      "stepses": [
+        {
+          "addRecipeTime": "0",
+          "canisterId": 3,
+          "delayTime": "0.0",
+          "gradientWeight": "8.0",
+          "mixSpeed": "60.0",
+          "recipeOutOrder": 1,
+          "recipeOutSpeed": "90.0",
+          "tempType": "1",
+          "waterVolume": "35"
+        },
+        {
+          "addRecipeTime": "0",
+          "canisterId": 4,
+          "delayTime": "0.0",
+          "gradientWeight": "18.0",
+          "mixSpeed": "60.0",
+          "recipeOutOrder": 2,
+          "recipeOutSpeed": "90.0",
+          "tempType": "1",
+          "waterVolume": "100"
+        },
+        {
+          "addRecipeTime": "0",
+          "canisterId": 170,
+          "delayTime": "0.0",
+          "gradientWeight": "11.0",
+          "recipeOutOrder": 3,
+          "waterVolume": "65"
+        }
+      ]
+    }
+  }
+}

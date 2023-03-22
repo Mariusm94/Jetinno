@@ -1,0 +1,515 @@
+[
+    {
+        "canisterIds": "3,4,8",
+         "instantAttr": {
+             "firstMixWaterRatio": "0",
+             "secondMixWaterRatio": "0",
+             "thirdMixWaterRatio": "0"
+         },
+        "recipeName": "Preworkout 1",
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 3,
+                "delayTime": "0.0",
+                "gradientWeight": "10.0",
+                "mixSpeed": "60.0",
+                "recipeOutOrder": 2,
+                "recipeOutSpeed": "90.0",
+                "tempType": "1",
+                "waterVolume": "70"
+            },
+            {
+                "addRecipeTime": "0",
+                "canisterId": 4,
+                "delayTime": "0.0",
+                "gradientWeight": "25.0",
+                "mixSpeed": "60.0",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90.0",
+                "tempType": "1",
+                "waterVolume": "140"
+            },
+            {
+                "addRecipeTime": "0",
+                "canisterId": 8,
+                "delayTime": "0.0",
+                "gradientWeight": "8.0",
+                "mixSpeed": "60.0",
+                "recipeOutOrder": 3,
+                "recipeOutSpeed": "90.0",
+                "tempType": "1",
+                "waterVolume": "90"
+            }
+        ],
+        "isChecked": false
+    },
+    {
+        "canisterIds": "3,4,8",
+        "recipeName": "拿铁",
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 8,
+                "delayTime": "0.0",
+                "gradientWeight": "8.0",
+                "mixSpeed": "60.0",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90.0",
+                "tempType": "1",
+                "waterVolume": "100"
+            },
+            {
+                "addRecipeTime": "0",
+                "canisterId": 4,
+                "delayTime": "0.0",
+                "gradientWeight": "22.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 2,
+                "recipeOutSpeed": "90",
+                "tempType": "1",
+                "waterVolume": "130"
+            },
+            {
+                "addRecipeTime": "0",
+                "canisterId": 3,
+                "delayTime": "0.0",
+                "gradientWeight": "10.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 3,
+                "recipeOutSpeed": "90",
+                "tempType": "1",
+                "waterVolume": "70"
+            }
+        ],
+        "isChecked": false
+    },
+    {
+        "canisterIds": "3,4,5,8",
+        "recipeName": "摩卡",
+         "instantAttr": {
+             "firstMixWaterRatio": "0",
+             "secondMixWaterRatio": "0",
+             "thirdMixWaterRatio": "0"
+         },
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 8,
+                "delayTime": "0.0",
+                "gradientWeight": "8.0",
+                "mixSpeed": "60.0",
+                "recipeOutOrder": 4,
+                "recipeOutSpeed": "90.0",
+                "tempType": "1",
+                "waterVolume": "80"
+            },
+            {
+                "addRecipeTime": "0",
+                "canisterId": 5,
+                "delayTime": "0.0",
+                "gradientWeight": "15.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 3,
+                "recipeOutSpeed": "90",
+                "tempType": "1",
+                "waterVolume": "100"
+            },
+            {
+                "addRecipeTime": "0",
+                "canisterId": 4,
+                "delayTime": "0.0",
+                "gradientWeight": "20.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 2,
+                "recipeOutSpeed": "90",
+                "tempType": "1",
+                "waterVolume": "120"
+            },
+            {
+                "addRecipeTime": "0",
+                "canisterId": 3,
+                "delayTime": "0.0",
+                "gradientWeight": "8.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90",
+                "tempType": "1",
+                "waterVolume": "0"
+            }
+        ],
+        "isChecked": false
+    },
+    {
+        "canisterIds": "3,8",
+        "recipeName": "美式咖啡",
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 3,
+                "delayTime": "0.0",
+                "gradientWeight": "10.0",
+                "mixSpeed": "60.0",
+                "recipeOutOrder": 2,
+                "recipeOutSpeed": "90.0",
+                "tempType": "1",
+                "waterVolume": "100"
+            },
+            {
+                "addRecipeTime": "0",
+                "canisterId": 8,
+                "delayTime": "0.0",
+                "gradientWeight": "12.0",
+                "mixSpeed": "60.0",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90.0",
+                "tempType": "1",
+                "waterVolume": "200"
+            }
+        ],
+        "isChecked": false
+    },
+    {
+        "canisterIds": "4,5",
+        "recipeName": "巧克力牛奶",
+         "instantAttr": {
+             "firstMixWaterRatio": "0",
+             "secondMixWaterRatio": "0",
+             "thirdMixWaterRatio": "0"
+         },
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 5,
+                "delayTime": "0.0",
+                "gradientWeight": "22.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 2,
+                "recipeOutSpeed": "90",
+                "tempType": "1",
+                "waterVolume": "160"
+            },
+            {
+                "addRecipeTime": "0",
+                "canisterId": 4,
+                "delayTime": "0.0",
+                "gradientWeight": "18.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90",
+                "tempType": "1",
+                "waterVolume": "130"
+            }
+        ],
+        "isChecked": false
+    },
+    {
+        "canisterIds": "5",
+        "recipeName": "香浓巧克力",
+         "instantAttr": {
+             "firstMixWaterRatio": "0",
+             "secondMixWaterRatio": "0",
+             "thirdMixWaterRatio": "0"
+         },
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 5,
+                "delayTime": "0.0",
+                "gradientWeight": "30.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90",
+                "tempType": "1",
+                "waterVolume": "290"
+            }
+        ],
+        "isChecked": false
+    },
+    {
+        "canisterIds": "3,4",
+        "recipeName": "醇香牛奶",
+         "instantAttr": {
+             "firstMixWaterRatio": "0",
+             "secondMixWaterRatio": "0",
+             "thirdMixWaterRatio": "0"
+         },
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 4,
+                "delayTime": "0.0",
+                "gradientWeight": "27.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90",
+                "tempType": "1",
+                "waterVolume": "200"
+            },
+            {
+                "addRecipeTime": "0",
+                "canisterId": 3,
+                "delayTime": "0.0",
+                "gradientWeight": "10.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 2,
+                "recipeOutSpeed": "90",
+                "tempType": "1",
+                "waterVolume": "70"
+            }
+        ],
+        "isChecked": false
+    },
+	{
+        "canisterIds": "3,4",
+        "recipeName": "冷牛奶",
+         "instantAttr": {
+             "firstMixWaterRatio": "0",
+             "secondMixWaterRatio": "0",
+             "thirdMixWaterRatio": "0"
+         },
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 4,
+                "delayTime": "0.0",
+                "gradientWeight": "27.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90",
+                "tempType": "0",
+                "waterVolume": "200"
+            },
+            {
+                "addRecipeTime": "0",
+                "canisterId": 3,
+                "delayTime": "0.0",
+                "gradientWeight": "10.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 2,
+                "recipeOutSpeed": "90",
+                "tempType": "0",
+                "waterVolume": "70"
+            }
+        ],
+        "isChecked": false
+    },
+	{
+        "canisterIds": "3,4,6",
+        "recipeName": "抹茶拿铁",
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 6,
+                "delayTime": "0.0",
+                "gradientWeight": "15.0",
+                "mixSpeed": "60.0",
+                "recipeOutOrder": 3,
+                "recipeOutSpeed": "90.0",
+                "tempType": "1",
+                "waterVolume": "120"
+            },
+            {
+                "addRecipeTime": "0",
+                "canisterId": 4,
+                "delayTime": "0.0",
+                "gradientWeight": "20.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 2,
+                "recipeOutSpeed": "90",
+                "tempType": "1",
+                "waterVolume": "160"
+            },
+            {
+                "addRecipeTime": "0",
+                "canisterId": 3,
+                "delayTime": "0.0",
+                "gradientWeight": "10.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90",
+                "tempType": "1",
+                "waterVolume": "0"
+            }
+        ],
+        "isChecked": false
+    },
+	{
+        "canisterIds": "3,4,6",
+        "recipeName": "冷抹茶拿铁",
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 6,
+                "delayTime": "0.0",
+                "gradientWeight": "15.0",
+                "mixSpeed": "60.0",
+                "recipeOutOrder": 3,
+                "recipeOutSpeed": "90.0",
+                "tempType": "0",
+                "waterVolume": "120"
+            },
+            {
+                "addRecipeTime": "0",
+                "canisterId": 4,
+                "delayTime": "0.0",
+                "gradientWeight": "20.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 2,
+                "recipeOutSpeed": "90",
+                "tempType": "0",
+                "waterVolume": "160"
+            },
+            {
+                "addRecipeTime": "0",
+                "canisterId": 3,
+                "delayTime": "0.0",
+                "gradientWeight": "10.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90",
+                "tempType": "0",
+                "waterVolume": "0"
+            }
+        ],
+        "isChecked": false
+    },
+    {
+        "canisterIds": "7",
+        "recipeName": "港式奶茶",
+         "instantAttr": {
+             "firstMixWaterRatio": "0",
+             "secondMixWaterRatio": "0",
+             "thirdMixWaterRatio": "0"
+         },
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 7,
+                "delayTime": "0.0",
+                "gradientWeight": "28.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90",
+                "tempType": "1",
+                "waterVolume": "290"
+            }
+        ],
+        "isChecked": false
+    },
+	{
+        "canisterIds": "7",
+        "recipeName": "冷港式奶茶",
+         "instantAttr": {
+             "firstMixWaterRatio": "0",
+             "secondMixWaterRatio": "0",
+             "thirdMixWaterRatio": "0"
+         },
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 7,
+                "delayTime": "0.0",
+                "gradientWeight": "28.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90",
+                "tempType": "0",
+                "waterVolume": "290"
+            }
+        ],
+        "isChecked": false
+    },
+    {
+        "canisterIds": "2",
+        "recipeName": "热蜜桃乌龙茶",
+         "instantAttr": {
+             "firstMixWaterRatio": "0",
+             "secondMixWaterRatio": "0",
+             "thirdMixWaterRatio": "0"
+         },
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 2,
+                "delayTime": "0.0",
+                "gradientWeight": "28.0",
+                "mixSpeed": "40",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90",
+                "tempType": "1",
+                "waterVolume": "290"
+            }
+        ],
+        "isChecked": false
+    },
+    {
+        "canisterIds": "1",
+        "recipeName": "热金桔柠檬",
+         "instantAttr": {
+             "firstMixWaterRatio": "0",
+             "secondMixWaterRatio": "0",
+             "thirdMixWaterRatio": "0"
+         },
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 1,
+                "delayTime": "0.0",
+                "gradientWeight": "30.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90",
+                "tempType": "1",
+                "waterVolume": "290"
+            }
+        ],
+        "isChecked": false
+    },
+	{
+        "canisterIds": "2",
+        "recipeName": "冷蜜桃乌龙茶",
+         "instantAttr": {
+             "firstMixWaterRatio": "0",
+             "secondMixWaterRatio": "0",
+             "thirdMixWaterRatio": "0"
+         },
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 2,
+                "delayTime": "0.0",
+                "gradientWeight": "30.0",
+                "mixSpeed": "40",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90",
+                "tempType": "0",
+                "waterVolume": "290"
+            }
+        ],
+        "isChecked": false
+    },
+    {
+        "canisterIds": "1",
+        "recipeName": "冷金桔柠檬",
+         "instantAttr": {
+             "firstMixWaterRatio": "0",
+             "secondMixWaterRatio": "0",
+             "thirdMixWaterRatio": "0"
+         },
+        "stepses": [
+            {
+                "addRecipeTime": "0",
+                "canisterId": 1,
+                "delayTime": "0.0",
+                "gradientWeight": "30.0",
+                "mixSpeed": "60",
+                "recipeOutOrder": 1,
+                "recipeOutSpeed": "90",
+                "tempType": "0",
+                "waterVolume": "290"
+            }
+        ],
+        "isChecked": false
+    }	
+]

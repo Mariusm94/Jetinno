@@ -1,0 +1,163 @@
+
+[
+    {
+        "canisterIds": "8",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "protein 1",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "8",
+                "waterVolume": "400",
+                "gradientWeight": "30",
+                "recipeOutOrder": "0",
+                "tempType": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "7",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "protein 2",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "7",
+                "waterVolume": "400",
+                "gradientWeight": "30",
+                "recipeOutOrder": "0",
+                "tempType": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "6",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "protein3",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "6",
+                "waterVolume": "400",
+                "gradientWeight": "30",
+                "recipeOutOrder": "0",
+                "tempType": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "5",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "protein 4",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "5",
+                "waterVolume": "380",
+                "gradientWeight": "30",
+                "recipeOutOrder": "0",
+                "tempType": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "4",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "bcca 1",
+        "stepses": [
+            {
+                "mixSpeed": "70",
+                "delayTime": "0",
+                "canisterId": "4",
+                "waterVolume": "380",
+                "gradientWeight": "12",
+                "recipeOutOrder": "0",
+                "tempType": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "3",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "preworkout 1",
+        "stepses": [
+            {
+                "mixSpeed": "80",
+                "delayTime": "0",
+                "canisterId": "3",
+                "waterVolume": "320",
+                "gradientWeight": "17",
+                "recipeOutOrder": "0",
+                "tempType": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "2",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "preworkout 2",
+        "stepses": [
+            {
+                "mixSpeed": "80",
+                "delayTime": "0",
+                "canisterId": "2",
+                "waterVolume": "250",
+                "gradientWeight": "7",
+                "recipeOutOrder": "0",
+                "tempType": "0"
+            }
+        ]
+    },
+    {
+        "canisterIds": "1",
+        "instantAttr": {
+            "firstMixWaterRatio": "0",
+            "secondMixWaterRatio": "0",
+            "thirdMixWaterRatio": "0"
+        },
+        "recipeName": "preworkout 3",
+        "stepses": [
+            {
+                "mixSpeed": "60",
+                "delayTime": "0",
+                "canisterId": "1",
+                "waterVolume": "380",
+                "gradientWeight": "10",
+                "recipeOutOrder": "0",
+                "tempType": "0"
+            }
+        ]
+    }
+]
